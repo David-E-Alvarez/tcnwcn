@@ -1,3 +1,45 @@
-header{
-	text-align: center;
+body{
+  
 }
+
+header{
+  display: flex;
+  justify-content: space-between;
+}
+
+nav{
+  
+}
+
+.nav_ul{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a{
+ text-decoration: none;
+  display: block;
+}
+
+li {
+ list-style: none;
+}
+
+/* hides nested links */
+ul li ul li{
+  display: none;
+}
+
+/* displays nested links when hovered over */
+ul li:hover ul li{
+  display: block;
+}
+
+/* keeps nested folder when hovered over moving nav links */
+.dropdowns{
+  position: absolute;
+  padding: .1em 0;
+}
+
+
+
