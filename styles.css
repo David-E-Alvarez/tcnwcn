@@ -7,17 +7,27 @@ body{
 }
 
 header{
-  display: flex;
-  justify-content: space-between;
+	display: flex;
+  	justify-content: space-between;
+	align-items: center;
+	border-style: dashed;
+	border-color: red;
+}
+
+.heart_div{
+	align-items: baseline;
 }
 
 nav{
-  
+	border-style: solid;
+	border-color: pink;
 }
 
 .nav_ul{
-  display: flex;
-  justify-content: space-evenly;
+  	display: flex;
+  	justify-content: space-evenly;
+	border-style: dotted;
+	border-color: purple;
 }
 
 a{
