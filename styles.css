@@ -23,17 +23,29 @@ nav{
 	border-color: pink;
 }
 
+@media (max-width: 480px){
+	nav{
+		flex-direction: column;
+	}
+	nav ul{
+		flex-direction: column;
+		align-items: center;
+		padding: 0 0 0 0;
+	}
+}
+
 .nav_ul{
-  	display: flex;
+	display: flex;
   	justify-content: space-evenly;
 	border-style: dotted;
 	border-color: purple;
 }
 
 a{
- text-decoration: none;
-  display: block;
+	text-decoration: none;
+  	display: block;
 }
+
 
 li {
  list-style: none;
