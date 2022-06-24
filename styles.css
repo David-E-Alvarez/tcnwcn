@@ -57,6 +57,15 @@ ul li ul li{
 /* displays nested links when hovered over */
 ul li:hover ul li{
   display: block;
+
+}
+
+@media (max-width: 480px){
+	ul li:hover ul li{
+  		display: block;
+  		background-color: black;
+		color: white
+	}
 }
 
 /* keeps nested folder when hovered over moving nav links */
