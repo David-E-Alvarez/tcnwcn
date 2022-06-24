@@ -10,8 +10,6 @@ header{
 	display: flex;
   	justify-content: space-between;
 	align-items: center;
-	border-style: dashed;
-	border-color: red;
 }
 
 .heart_div{
@@ -19,8 +17,7 @@ header{
 }
 
 nav{
-	border-style: solid;
-	border-color: pink;
+	
 }
 
 @media (max-width: 480px){
@@ -40,8 +37,6 @@ nav{
 .nav_ul{
 	display: flex;
   	justify-content: space-evenly;
-	border-style: dotted;
-	border-color: purple;
 }
 
 a{
