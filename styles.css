@@ -31,6 +31,7 @@ nav{
 	}
 	a{
     		font-size: 2.5em;
+		color: red;
   	}
 }
 
@@ -42,6 +43,7 @@ nav{
 a{
 	text-decoration: none;
   	display: block;
+	color: black;
 }
 
 
@@ -60,13 +62,7 @@ ul li:hover ul li{
 
 }
 
-@media (max-width: 480px){
-	ul li:hover ul li{
-  		display: block;
-  		background-color: black;
-		color: white
-	}
-}
+
 
 /* keeps nested folder when hovered over moving nav links */
 .dropdowns{
